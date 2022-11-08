@@ -3,11 +3,10 @@ imagesortR
 Andrew Schwenke
 8/11/2022
 
-<center>
+<p align="center">
 
-<img src="img/90s%20style%20video%20game%20of%20a%20scie%20-%202.png" style="width:30.0%" />
-
-</center>
+<img align="center" src="img/90s style video game of a scie - 2.png" width="30%">
+\</p”>
 
 ### Features:
 
@@ -15,6 +14,11 @@ Andrew Schwenke
 -   🗂 sort images into folders based on keywords
 
 ### Installation:
+
+``` r
+library(devtools)
+install_github('andrew-1234/imgsortR')
+```
 
 ### Description:
 
@@ -73,11 +77,9 @@ sort_images(keywords = my_dat, imgpath = "~/Pictures/dall-e-test2/")
 Example folder structure after running the function, where folders
 contain the image copies:
 
-<center>
-
-<img src="img/demo.png" style="width:50.0%" />
-
-</center>
+<p align="center">
+<img src="img/demo.png" width="50%">
+</p>
 
 ### Additional notes and limitations
 

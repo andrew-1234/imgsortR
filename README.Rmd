@@ -7,11 +7,9 @@ editor_options:
   chunk_output_type: console
 ---
 
-<center>
-
-![](img/90s style video game of a scie - 2.png){width=30%}
-
-</center>
+<p align="center">
+<img align="center" src="img/90s style video game of a scie - 2.png" width="30%">
+</p">
 
 ### Features:
 
@@ -19,6 +17,11 @@ editor_options:
 - 🗂 sort images into folders based on keywords
 
 ### Installation: 
+
+```{r eval = FALSE}
+library(devtools)
+install_github('andrew-1234/imgsortR')
+```
 
 ### Description:
 
@@ -55,11 +58,9 @@ sort_images(keywords = my_dat, imgpath = "~/Pictures/dall-e-test2/")
 
 Example folder structure after running the function, where folders contain the image copies:
 
-<center>
-
-![](img/demo.png){width=50%}
-
-</center>
+<p align="center">
+<img src="img/demo.png" width="50%">
+</p>
 
 ### Additional notes and limitations
 
