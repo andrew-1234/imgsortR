@@ -22,8 +22,9 @@ install_github('andrew-1234/imgsortR')
 
 ### Description:
 
-I’ve been enjoying using Dall-E 2 to generate images, and so I wanted a
-way to quickly sort them into folders based on keywords.
+I’ve been enjoying using [Dall-E 2](https://openai.com/dall-e-2/) to
+generate images, and so I wanted a way to quickly sort them into folders
+based on keywords.
 
 This package will read a directory of images and sort them into folders.
 They don’t have to actually be from Dall-E 2, the only requirement is
@@ -33,17 +34,18 @@ Downloader extension in chrome to download the image results of a
 prompt, and the file names inherit some of the prompt keywords.
 
 Keep in mind this is my first R package! I wanted to practice making a
-package in R, but this is a very specific use case and I don’t expect
-anybody to be using this. Something similar probably exists. But if you
-are interested and want to use the package, I’m eager for feedback,
-suggestions, bugs, additional use cases, or just a star if you like it.
-Thanks!
+package in R, and I’m learning a lot in this process 😁. But I realise
+that this is a very specific use case and I don’t expect anybody will be
+using this. But if you are actually interested and want to use the
+package, I’m eager for feedback, suggestions, bugs, additional use
+cases, or just a star if you like it. Thanks!
 
 ### Use:
 
 The first function will read the directory where your images are, and
 extract the most common keywords (after filtering for stop words).
-Images should all be at parent level rather than in sub folders.
+**Note**: currently, images have to be in the parent level rather than
+in sub folders.
 
 ``` r
 library(imgsortR)
