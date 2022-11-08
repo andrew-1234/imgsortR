@@ -1,0 +1,22 @@
+Package: imgsortR
+Type: Package
+Title: Sort Directory of Images from Dall-E 2 into Folders Based on Keywords
+Version: 0.1.0
+Author: Andrew Schwenke
+Maintainer: The package maintainer <andrew.schwenke@gmail.com>
+Description: This package works based on the assumption that your Dall E 2
+    images have prompt text as the file name. It then extracts a keyword list,
+    and attempts to sort your images into new (or existing) folders based on the
+    keywords. Sorting happens from the highest frequency keyword to the lowest
+    frequency. This means that an image can be sorted only into one folder,
+    being the highest frequency keyword that has a match in the file name. 
+Encoding: UTF-8
+LazyData: true
+License: MIT + file LICENSE
+RoxygenNote: 7.2.1.9000
+Imports: 
+    dplyr,
+    stopwords,
+    stringr,
+    tidyr,
+    tidytext
