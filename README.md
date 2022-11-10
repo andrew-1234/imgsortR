@@ -6,12 +6,13 @@ Andrew Schwenke
 <p align="center">
 
 <img align="center" src="img/90s style video game of a scie - 2.png" width="30%">
-\</p”>
+
+</p>
 
 ### Features:
 
--   🗝 create keyword frequency list from a directory of images
--   🗂 sort images into folders based on keywords
+- 🗝 create keyword frequency list from a directory of images
+- 🗂 sort images into folders based on keywords
 
 ### Installation:
 
@@ -49,7 +50,6 @@ in sub folders.
 
 ``` r
 library(imgsortR)
-#use_import_from("dplyr", "%>%")
 
 my_dat <- dalle_import(imgpath = "~/Pictures/dall-e-test2/")
 ```
@@ -80,7 +80,9 @@ Example folder structure after running the function, where folders
 contain the image copies:
 
 <p align="center">
+
 <img src="img/demo.png" width="50%">
+
 </p>
 
 ### Additional notes and limitations
